@@ -10,7 +10,7 @@ The following sections explain the required steps to prepare the PC/Mac and the 
 
 ## RPi
 Preparing the Raspberry Pi
-1.	Download Raspbian and copy it to the SD card
+1.	Download Raspbian from https://www.raspberrypi.org/downloads/raspbian/ and copy it to the SD card
 2.	Connect the RPi to a monitor, mouse, keyboard
 3.	Connect to a WiFi network
 4.	Open terminal
