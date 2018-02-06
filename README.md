@@ -10,10 +10,10 @@ The following sections explain the required steps to prepare the PC/Mac and the 
 
 ## RPi
 Preparing the Raspberry Pi
-1.	Download Raspbian from https://www.raspberrypi.org/downloads/raspbian/ and copy it to the SD card
-2.	Connect the RPi to a monitor, mouse, keyboard
-3.	Connect to a WiFi network
-4.	Open terminal
+1.	Download Raspbian from https://www.raspberrypi.org/downloads/raspbian/ and burn it to the SD card using DiskImager https://sourceforge.net/projects/win32diskimager/
+2.	Connect the RPi to a monitor, mouse, keyboard, and start the RPi
+3.	From the network icon on the desktop toolbar connect to a WiFi network
+4.	Open Terminal
 5.	Run ifconfig to find the RPi’s IP address
 6.	Type in sudo apt-get update
 7.	Type in sudo apt-get upgrade
@@ -68,7 +68,7 @@ Restart
 sudo reboot
 ```
 
-### PC/Mac
+### PC
 Install VNC viewer from https://www.realvnc.com/en/connect/download/viewer/
 
 ### Usage
