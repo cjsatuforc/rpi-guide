@@ -59,6 +59,9 @@ ping 192.168.100.200
 ![Screenshot](/images/putty.png?raw=true "Login")
 
 3.  Enter raspberry when asked for the password
+
+![Screenshot](/images/puttylogin.png?raw=true "Login")
+
 4.  You now have access to the Pi through its terminal
 
 ### Accessing the graphical interface remotely through VNC
