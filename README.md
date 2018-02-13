@@ -50,7 +50,7 @@ ping 192.168.100.200
 ### Connecting through SSH
 Download an SSH client on your Windows machine such as PuTTY (http://www.putty.org/)
 
-1.	Type in the PI address of the RPi that you acquired in [Step 4] (#rpi_monitor)
+1.	Type in the PI address of the RPi that you acquired in [Step 4](#rpi_monitor)
 ```
 ssh pi@x.x.x.x
 ```
