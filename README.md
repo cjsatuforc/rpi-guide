@@ -13,14 +13,16 @@ The following sections explain the required steps to prepare the PC/Mac and the 
 1.	Download Raspbian OS image from https://www.raspberrypi.org/downloads/raspbian/
 2.  Burn it to the SD card using DiskImager https://sourceforge.net/projects/win32diskimager/
 
+<a name="rpi_monitor"/>
+
 ### Initiating the RPi
 #### Running the Raspberry Pi with a monitor
 1.	Connect the RPi to a monitor, mouse, keyboard, and start the RPi
-4.	From the network icon on the desktop toolbar connect to a WiFi network
-5.	Open Terminal
-6.	Run ifconfig to find the RPi’s IP address
-7.	Type in sudo apt-get update
-8.	Type in sudo apt-get upgrade
+2.	From the network icon on the desktop toolbar connect to a WiFi network
+3.	Open Terminal
+4.	Run ifconfig to find the RPi’s IP address
+
+<a name="rpi_headless"/>
 
 #### Running Raspberry Pi Headless (without a monitor)
 This section will only work if you burned Raspbian onto the SD card, and may not work if you started with Noobs (the OS already burned on the SD card that comes with the RPi)
@@ -44,10 +46,11 @@ Finally, test the conneciton by opening Windows Command Line and typing in
 ping 192.168.100.200
 ```
 
+## Accessing the RPi remotely
 ### Connecting through SSH
-The follwoing commands will work on Mac machines only. To SSH from Windows, use PuTTY (http://www.putty.org/)
+Download an SSH client on your Windows machine such as PuTTY (http://www.putty.org/)
 
-6.	Type in
+1.	Type in the PI address of the RPi that you acquired in [Step 4] (#rpi_monitor)
 ```
 ssh pi@x.x.x.x
 ```
