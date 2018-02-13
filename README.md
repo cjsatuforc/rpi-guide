@@ -50,13 +50,9 @@ ping 192.168.100.200
 ### Connecting through SSH
 Download an SSH client on your Windows machine such as PuTTY (http://www.putty.org/)
 
-1.	Type in the PI address of the RPi that you acquired in [Step 4](#rpi_monitor)
-```
-ssh pi@x.x.x.x
-```
-where x.x.x.x is the IP address of your Pi
-7.	Enter raspberry when asked for the password
-8.	You now have access to the Pi through its terminal
+1.	Type in the PI address of the RPi that you acquired in Step 4 of [Running the Raspberry Pi with a monitor](#rpi_monitor) or Step 2 of [Running Raspberry Pi Headless](#rpi_headless)
+2.	Enter raspberry when asked for the password
+3.	You now have access to the Pi through its terminal
 
 <a name="vnc"/>
 
