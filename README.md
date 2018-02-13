@@ -55,6 +55,9 @@ ping 192.168.100.200
 1. Download an SSH client on your Windows machine such as PuTTY (http://www.putty.org/)
 
 2.  Type in the PI address of the RPi that you acquired in Step 4 of [Running the Raspberry Pi with a monitor](#rpi_monitor) or Step 2 of [Running Raspberry Pi Headless](#rpi_headless)
+
+![Screenshot](/images/putty.png?raw=true "Login")
+
 3.  Enter raspberry when asked for the password
 4.  You now have access to the Pi through its terminal
 
