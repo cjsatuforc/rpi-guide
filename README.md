@@ -33,17 +33,17 @@ This section will only work if you burned Raspbian onto the SD card, and may not
 ```
 ip=192.168.100.200::192.168.100.1:255.255.255.0:rpi:eth0:off
 ```
-Where `192.168.100.200` is the IP address, `192.168.100.1` is the network gateway, and `255.255.255.0` is the network mask. You are free to change the IP address to any value as long as you choose one on the same subnet at the you set your computer to in Step 8.
+Where `192.168.100.200` is the *IP address*, `192.168.100.1` is the *network gateway*, and `255.255.255.0` is the *network mask*. You are free to change the IP address to any value as long as you choose one on the same subnet at the you set your computer to in Step 8
 
-3.	Plug the SD card back into the RPi, then connect the RPi to your computer using an ethernet cable.
+3.	Plug the SD card back into the RPi, then connect the RPi to your computer using an ethernet cable
 
-4.	Right-click the network icon on your computer's toolbar and choose "Network and Sharing Center".
-5.  From the side menu, choose "Change adapter settings".
-6.  Right-click the ethernet network adapter, and choose "Properties"
-7.  In the scroll-down menu, choose "Internet Protocol Version 4 (TCP/IPv4) and select "Properties"
-8.  Select "Use the following IP address", and set the IP to `192.168.100.201`, subnet mask to `255.255.255.0`, and default gateway to `192.168.100.1`.
+4.	Right-click the network icon on your computer's toolbar and choose "Network and Sharing Center"
+5.  From the side menu, choose **Change adapter settings**
+6.  Right-click the **Ethernet** network adapter, and choose **Properties**
+7.  In the scroll-down menu, choose **Internet Protocol Version 4 (TCP/IPv4)** and select **Properties**
+8.  Select **Use the following IP address**, and set the *IP* to `192.168.100.201`, *subnet mask* to `255.255.255.0`, and *default gateway* to `192.168.100.1`
 
-Finally, test the conneciton by opening Windows Command Line and typing in
+Finally, test the conneciton by opening **Windows Command Line** and typing in
 ```
 ping 192.168.100.200
 ```
@@ -58,15 +58,19 @@ Download an SSH client on your Windows machine such as PuTTY (http://www.putty.o
 2.	Enter raspberry when asked for the password
 3.	You now have access to the Pi through its terminal
 
-## VNC
+### Accessing the graphical interface remotely through VNC
+
+### PC
+Install VNC viewer from https://www.realvnc.com/en/connect/download/viewer/
+
 ### Raspberry Pi
-### Download realVNC
+#### Download realVNC
 Once you've established an SSH connection through Putty, type in
 ```
 sudo apt-get update
 sudo apt-get install realvnc-vnc-server realvnc-vnc-viewer
 ```
-### Enable VNC
+#### Enable VNC
 Then run the following command
 ```
 sudo raspi-config
@@ -78,9 +82,6 @@ Restart
 ```
 sudo reboot
 ```
-
-### PC
-Install VNC viewer from https://www.realvnc.com/en/connect/download/viewer/
 
 ### Usage
 1. Open VNCViewer on your computer, and type the IP address of the Raspberry Pi that you acquired in Step 4 of [Running the Raspberry Pi with a monitor](#rpi_monitor) or Step 2 of [Running Raspberry Pi Headless](#rpi_headless) followed by port `5900` e.g. `192.168.100.200:5900`
