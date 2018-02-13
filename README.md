@@ -94,6 +94,6 @@ sudo reboot
 
 ### Usage
 1. Open VNCViewer on your computer, and type the IP address of the Raspberry Pi that you acquired in Step 4 of [Running the Raspberry Pi with a monitor](#rpi_monitor) or Step 2 of [Running Raspberry Pi Headless](#rpi_headless) followed by port `5900` e.g. `192.168.100.200:5900`
-2. Enter the Raspberry Pi’s username and password
-![Screenshot](/images/vnc2.png?raw=true "Login")
+2. Enter the Raspberry Pi’s username and password to access the RPi's desktop
 
+![Screenshot](/images/vncdesktop.PNG?raw=true "Login")
