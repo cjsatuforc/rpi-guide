@@ -84,7 +84,7 @@ sudo raspi-config
 ![Screenshot](/images/vncallow.png?raw=true "Login")
 
 2. Navigate to **Interfacing Options**, then scroll down and select **VNC > Yes**.
-![Screenshot](/images/vncallow3.png?raw=true "Login")
+![Screenshot](/images/vncallow3.PNG?raw=true "Login")
 
 3. Restart
 ```
