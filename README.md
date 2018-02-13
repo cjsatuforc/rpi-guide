@@ -77,14 +77,16 @@ sudo apt-get update
 sudo apt-get install realvnc-vnc-server realvnc-vnc-viewer
 ```
 #### Enable VNC
-Then run the following command
+1. Run the following command
 ```
 sudo raspi-config
 ```
+![Screenshot](/images/vncallow.png?raw=true "Login")
 
-Navigate to **Interfacing Options**, then scroll down and select **VNC > Yes**.
+2. Navigate to **Interfacing Options**, then scroll down and select **VNC > Yes**.
+![Screenshot](/images/vncallow3.png?raw=true "Login")
 
-Restart
+3. Restart
 ```
 sudo reboot
 ```
