@@ -5,8 +5,8 @@ The following sections explain the required steps to prepare the PC/Mac and the 
 ### 1. [Preparing the Raspberry Pi SD card](#sdcard)
 ### 2. [Initiating the RPi](#sdcard)
 #### 2.a. [Running the Raspberry Pi with a monitor](#rpi_monitor)
-#### 2.b. [Running the Raspberry Pi with a monitor](#rpi_headless)
-### 3. [Remote access to Raspberry Pi through VNC](#remote) 
+#### 2.b. [Running the Raspberry Pi headless](#rpi_headless)
+### 3. [Remote access to Raspberry Pi](#remote) 
 
 <a name="sdcard"/>
 
