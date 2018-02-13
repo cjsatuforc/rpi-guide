@@ -10,15 +10,15 @@ The following sections explain the required steps to prepare the PC/Mac and the 
 
 <a name="sdcard"/>
 
-## RPi
-### Preparing the Raspberry Pi SD card
+
+## Preparing the Raspberry Pi SD card
 1.	Download Raspbian OS image from https://www.raspberrypi.org/downloads/raspbian/
 2.  Burn it to the SD card using DiskImager https://sourceforge.net/projects/win32diskimager/
 
 <a name="rpi_monitor"/>
 
-### Initiating the RPi
-#### Running the Raspberry Pi with a monitor
+## Initiating the RPi
+### Running the Raspberry Pi with a monitor
 1.	Connect the RPi to a monitor, mouse, keyboard, and start the RPi
 2.	From the network icon on the desktop toolbar connect to a WiFi network
 3.	Open Terminal
@@ -26,7 +26,7 @@ The following sections explain the required steps to prepare the PC/Mac and the 
 
 <a name="rpi_headless"/>
 
-#### Running Raspberry Pi Headless (without a monitor)
+### Running Raspberry Pi Headless (without a monitor)
 This section will only work if you burned Raspbian onto the SD card, and may not work if you started with Noobs (the OS already burned on the SD card that comes with the RPi)
 1.	Plug the SD card reader into your computer
 2.	Open the cmdline.txt file on the main root of the SD card and append the following
