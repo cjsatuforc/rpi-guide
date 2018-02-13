@@ -59,13 +59,13 @@ Download an SSH client on your Windows machine such as PuTTY (http://www.putty.o
 ## VNC
 ### Raspberry Pi
 ### Download realVNC
-From terminal, run the following commands
+Once you've established an SSH connection through Putty, type in
 ```
 sudo apt-get update
 sudo apt-get install realvnc-vnc-server realvnc-vnc-viewer
 ```
 ### Enable VNC
-From terminal, run the following command
+Then run the following command
 ```
 sudo raspi-config
 ```
@@ -81,6 +81,7 @@ sudo reboot
 Install VNC viewer from https://www.realvnc.com/en/connect/download/viewer/
 
 ### Usage
-Open VNCViewer on your computer, and type the IP address of the Raspberry Pi followed by port `5900` e.g. `x.x.x.x:5900`, then enter the Raspberry Pi’s username and password
+1. Open VNCViewer on your computer, and type the IP address of the Raspberry Pi that you acquired in Step 4 of [Running the Raspberry Pi with a monitor](#rpi_monitor) or Step 2 of [Running Raspberry Pi Headless](#rpi_headless) followed by port `5900` e.g. `192.168.100.200:5900`
+2. Enter the Raspberry Pi’s username and password
 ![Screenshot](/images/vnc2.png?raw=true "Login")
 
