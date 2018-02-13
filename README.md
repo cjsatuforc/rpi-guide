@@ -12,8 +12,8 @@ The following sections explain the required steps to prepare the PC/Mac and the 
 
 
 ## Preparing the Raspberry Pi SD card
-1.       Download Raspbian OS image from https://www.raspberrypi.org/downloads/raspbian/
-2.       Burn it to the SD card using DiskImager https://sourceforge.net/projects/win32diskimager/
+1.  Download Raspbian OS image from https://www.raspberrypi.org/downloads/raspbian/
+2.  Burn it to the SD card using DiskImager https://sourceforge.net/projects/win32diskimager/
 
 <a name="rpi_monitor"/>
 
