@@ -2,18 +2,18 @@
 The following sections explain the required steps to prepare the PC/Mac and the Raspberry Pi
 
 ## Table of Contents   
-### 1. [Preparing the Raspberry Pi SD card](#sdcard)
-### 2. [Initiating the RPi](#sdcard)
-#### 2.a. [Running the Raspberry Pi with a monitor](#rpi_monitor)
-#### 2.b. [Running the Raspberry Pi headless](#rpi_headless)
-### 3. [Remote access to Raspberry Pi](#remote) 
+### 1.   [Preparing the Raspberry Pi SD card](#sdcard)
+### 2.   [Initiating the RPi](#sdcard)
+#### a.         [Running the Raspberry Pi with a monitor](#rpi_monitor)
+#### b.         [Running the Raspberry Pi headless](#rpi_headless)
+### 3.   [Remote access to Raspberry Pi](#remote) 
 
 <a name="sdcard"/>
 
 
 ## Preparing the Raspberry Pi SD card
-1.	Download Raspbian OS image from https://www.raspberrypi.org/downloads/raspbian/
-2.  Burn it to the SD card using DiskImager https://sourceforge.net/projects/win32diskimager/
+1.       Download Raspbian OS image from https://www.raspberrypi.org/downloads/raspbian/
+2.       Burn it to the SD card using DiskImager https://sourceforge.net/projects/win32diskimager/
 
 <a name="rpi_monitor"/>
 
