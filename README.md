@@ -30,7 +30,9 @@ This section will only work if you burned Raspbian onto the SD card, and may not
 ip=192.168.100.200::192.168.100.1:255.255.255.0:rpi:eth0:off
 ```
 Where `192.168.100.200` is the IP address, `192.168.100.1` is the network gateway, and `255.255.255.0` is the network mask. You are free to change the IP address to any value as long as you choose one on the same subnet at the you set your computer to in Step 8.
+
 3.	Plug the SD card back into the RPi, then connect the RPi to your computer using an ethernet cable.
+
 4.	Right-click the network icon on your computer's toolbar and choose "Network and Sharing Center".
 5.  From the side menu, choose "Change adapter settings".
 6.  Right-click the ethernet network adapter, and choose "Properties"
