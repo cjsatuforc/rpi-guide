@@ -1,12 +1,14 @@
 # Setup
 The following sections explain the required steps to prepare the PC/Mac and the Raspberry Pi
 
-## Table of Contents  
-#### 1. [Setting up your personal computer](#pcmac)    
-#### 2. [Setting up your Raspberry Pi](#rpi) 
-#### 3. [Remote access to Raspberry Pi through VNC](#vnc) 
+## Table of Contents   
+### 1. [Preparing the Raspberry Pi SD card](#sdcard)
+### 2. [Initiating the RPi](#sdcard)
+#### 2.a. [Running the Raspberry Pi with a monitor](#rpi_monitor)
+#### 2.b. [Running the Raspberry Pi with a monitor](#rpi_headless)
+### 3. [Remote access to Raspberry Pi through VNC](#remote) 
 
-<a name="rpi"/>
+<a name="sdcard"/>
 
 ## RPi
 ### Preparing the Raspberry Pi SD card
@@ -46,6 +48,8 @@ Finally, test the conneciton by opening Windows Command Line and typing in
 ping 192.168.100.200
 ```
 
+<a name="remote"/>
+         
 ## Accessing the RPi remotely
 ### Connecting through SSH
 Download an SSH client on your Windows machine such as PuTTY (http://www.putty.org/)
@@ -53,8 +57,6 @@ Download an SSH client on your Windows machine such as PuTTY (http://www.putty.o
 1.	Type in the PI address of the RPi that you acquired in Step 4 of [Running the Raspberry Pi with a monitor](#rpi_monitor) or Step 2 of [Running Raspberry Pi Headless](#rpi_headless)
 2.	Enter raspberry when asked for the password
 3.	You now have access to the Pi through its terminal
-
-<a name="vnc"/>
 
 ## VNC
 ### Raspberry Pi
