@@ -63,6 +63,7 @@ ping 192.168.100.200
 ![Screenshot](/images/puttylogin.png?raw=true "Login")
 
 4.  You now have access to the Pi through its terminal
+P.S. If you get a "refused to connect" message, take the SD card out of the RPi and plug it into your SD reader, then on the main root creat an empty file and call it "ssh" with not format. Plug the SD card back into the RPi and it should work.
 
 ### Accessing the graphical interface remotely through VNC
 
